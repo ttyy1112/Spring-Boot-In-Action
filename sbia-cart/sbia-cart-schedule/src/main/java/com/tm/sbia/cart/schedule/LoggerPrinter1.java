@@ -21,7 +21,7 @@ public class LoggerPrinter1 {
         logger.info("I am executing-1111! Sorry!Sorry!Sorry!Sorry!Sorry!");
     }
 
-    @Scheduled(cron = "0 0 1 ? * 2")
+    @Scheduled(cron = "0 0 1 ? * MON")
     public void printLoggerWeekly() {
         logger.info(Calendar.getInstance().getWeeksInWeekYear() + " : I am executing! Amazing!ing!ing!ing!ing!");
     }
