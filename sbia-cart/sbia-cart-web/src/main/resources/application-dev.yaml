@@ -1,0 +1,15 @@
+# 更改配置文件名称
+logging:
+  # log4j2配置：classpath:log4j2-config.xml
+  config: classpath:logging-config.xml
+  # 通过配置文件改变指定包的日志输出级别
+  level:
+    org:
+      springframework: info
+
+spring:
+  task:
+    scheduling:
+      thread-name-prefix: sbia-schedule-
+      pool:
+        size: 4
