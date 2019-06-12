@@ -11,6 +11,8 @@
     <modules>
         <module>sbia-feature-web</module>
         <module>sbia-feature-schedule</module>
+        <module>sbia-feature-app</module>
+        <module>sbia-feature-context</module>
     </modules>
 
 

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.tm.sbia:sbia-feature-context:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://D:/jd-dev-env/maven/repository/local/com/tm/sbia/sbia-feature-context/1.0-SNAPSHOT/sbia-feature-context-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/jd-dev-env/maven/repository/local/com/tm/sbia/sbia-feature-context/1.0-SNAPSHOT/sbia-feature-context-1.0-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/jd-dev-env/maven/repository/local/com/tm/sbia/sbia-feature-context/1.0-SNAPSHOT/sbia-feature-context-1.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
