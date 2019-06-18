@@ -1,4 +1,4 @@
-package com.tm.sbia.feature.context.factorypostprocessor;
+package com.tm.sbia.feature.context.importbeandefinitionregistrar;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,7 +24,7 @@ public class CounterImportBeanDefinitionRegistrar implements ImportBeanDefinitio
 
     @Override
     public void registerBeanDefinitions(AnnotationMetadata importingClassMetadata, BeanDefinitionRegistry registry) {
-        logger.info("executing com.tm.sbia.feature.context.factorypostprocessor.CounterImportBeanDefinitionRegistrar.registerBeanDefinitions");
+        logger.info("executing com.tm.sbia.feature.context.importbeandefinitionregistrar.CounterImportBeanDefinitionRegistrar.registerBeanDefinitions");
 
         logger.info("总共定义bean {}个。", registry.getBeanDefinitionCount());
 
