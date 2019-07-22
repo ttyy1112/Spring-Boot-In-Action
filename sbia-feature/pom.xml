@@ -13,6 +13,7 @@
         <module>sbia-feature-schedule</module>
         <module>sbia-feature-app</module>
         <module>sbia-feature-context</module>
+        <module>sbia-feature-websocket</module>
     </modules>
 
 
