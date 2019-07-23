@@ -1,9 +1,10 @@
   <!DOCTYPE html>
   <meta charset="utf-8" />
   <title>WebSocket Test</title>
+  <script src="webjars/sockjs-client/1.0.2/sockjs.min.js"></script>
   <script language="javascript" type="text/javascript">
 
-  var wsUri = "ws://" + window.location.host + "/marco";
+  var wsUri = "http://" + window.location.host + "/marco";
   var output;
   var count = 0;
 
@@ -15,7 +16,7 @@
 
   function testWebSocket()
   {
-    websocket = new WebSocket(wsUri);
+    websocket = new SockJS(wsUri);
     websocket.onopen = function(evt) { onOpen(evt) };
     websocket.onclose = function(evt) { onClose(evt) };
     websocket.onmessage = function(evt) { onMessage(evt) };
