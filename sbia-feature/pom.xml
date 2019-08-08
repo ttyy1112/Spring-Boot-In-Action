@@ -14,6 +14,7 @@
         <module>sbia-feature-app</module>
         <module>sbia-feature-context</module>
         <module>sbia-feature-websocket</module>
+        <module>sbia-feature-mybatis</module>
     </modules>
 
 
