@@ -1,4 +1,4 @@
-package com.tm.sbia.domain;
+package com.tm.sbia.feature.domain;
 
 import java.util.Date;
 

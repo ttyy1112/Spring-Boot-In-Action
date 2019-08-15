@@ -12,4 +12,4 @@ CREATE TABLE `demo_user` (
   `ts` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '时间戳',
   `dr` tinyint(4) NOT NULL DEFAULT '0' COMMENT '逻辑删除标识位。0：未删除；1：已删除',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='用户表';
+);

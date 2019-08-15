@@ -25,7 +25,7 @@
         </javaTypeResolver>
 
         <!-- domain 领域模型 -->
-        <javaModelGenerator targetPackage="com.tm.sbia.domain" targetProject="../sbia-feature-mybatis/src/main/java">
+        <javaModelGenerator targetPackage="com.tm.sbia.feature.domain" targetProject="../sbia-feature-mybatis/src/main/java">
             <property name="enableSubPackages" value="true" />
             <property name="trimStrings" value="true" />
         </javaModelGenerator>
@@ -36,7 +36,7 @@
         </sqlMapGenerator>
 
         <!-- dao 接口 -->
-        <javaClientGenerator type="XMLMAPPER" targetPackage="com.tm.sbia.dao"  targetProject="src/main/java">
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.tm.sbia.feature.dao" targetProject="src/main/java">
             <property name="enableSubPackages" value="true" />
         </javaClientGenerator>
 

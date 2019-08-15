@@ -1,10 +1,13 @@
-package com.tm.sbia.dao;
+package com.tm.sbia.feature.dao;
 
-import com.tm.sbia.domain.DemoUser;
-import com.tm.sbia.domain.DemoUserExample;
+import com.tm.sbia.feature.domain.DemoUser;
+import com.tm.sbia.feature.domain.DemoUserExample;
 import java.util.List;
+
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
+@Mapper
 public interface DemoUserMapper {
     long countByExample(DemoUserExample example);
 
