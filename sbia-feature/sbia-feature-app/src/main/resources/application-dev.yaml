@@ -34,7 +34,7 @@ spring:
 #    # 连接池类型
 #    type: com.zaxxer.hikari.HikariDataSource
   datasource:
-    url: jdbc:mysql://192.168.166.17:3306/sbia_demo?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true
+    url: jdbc:mysql://localhost:3306/sbia_demo?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true
     username: root
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver
