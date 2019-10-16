@@ -20,7 +20,7 @@
             <property name="useInformationSchema" value="true"></property>
         </jdbcConnection>
 
-        <javaTypeResolver >
+        <javaTypeResolver>
             <property name="forceBigDecimals" value="false" />
         </javaTypeResolver>
 

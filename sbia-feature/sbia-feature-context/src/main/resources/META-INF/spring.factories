@@ -1,0 +1,3 @@
+org.springframework.context.ApplicationListener=\
+com.tm.sbia.feature.context.listener.ContextStartedEventListener,\
+com.tm.sbia.feature.context.listener.ContextStoppedEventListener

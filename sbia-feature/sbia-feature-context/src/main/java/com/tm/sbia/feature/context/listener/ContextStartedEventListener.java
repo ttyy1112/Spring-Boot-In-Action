@@ -6,7 +6,6 @@ import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextStartedEvent;
 import org.springframework.stereotype.Component;
 
-@Component
 public class ContextStartedEventListener implements ApplicationListener<ContextStartedEvent> {
     private Logger logger = LoggerFactory.getLogger(ContextStartedEventListener.class);
     @Override
