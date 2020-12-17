@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.atang.sbia.demo.module1.Module1AutoConfiguration

@@ -1,2 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.tm.sbia.demo.module2.Module2AutoConfiguration
